@@ -6,7 +6,6 @@ contract gammy {
         bytes32 username;
         bytes32 password;
         uint256 balance;
-        bool isActive; // To track active/inactive users
     }
 
     mapping(address => user) public user;
