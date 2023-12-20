@@ -42,7 +42,10 @@ contract gammy {
         emit userLoggedIn(msg.sender, _username);
     }
 
-    function isDidTaken(bytes32 _did) public view returns (bool) {
-        return usedDIDs[_did];
-    }
+    function addPayment(address_to, uint _amount) public {
+        require(users[msg.sender].balance => amount, "Insufficient fund");
+        user[msg.sender].balance -= _amount;
+        users[_to].balance =+ _amount;  
+        emit paymentSent(msg.sender, _to, _amount);
+        }
 }
