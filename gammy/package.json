@@ -12,7 +12,6 @@
   "dependencies": {
     "@web5/api": "^0.8.3"
   },
-  "type": "module",
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^4.0.0",
     "hardhat": "^2.19.3"
